@@ -1,5 +1,6 @@
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 function Banner() {
     return (
         <div className="relative">
@@ -13,11 +14,11 @@ function Banner() {
             interval={5000}
             >
                 <div>
-                    <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
+                    <img  loading="lazy" src="images/banner1.jpeg" alt=""  />
                 </div>
-                    <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
+                    <img loading="lazy" src="images/banner2.jpeg" alt="" />
                 <div>
-                    <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
+                    <img loading="lazy" src="images/banner3.jpeg" alt="" />
                 </div>
 
                 
